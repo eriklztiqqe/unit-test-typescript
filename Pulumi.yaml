@@ -1,0 +1,10 @@
+name: ${PROJECT}
+description: ${DESCRIPTION}
+runtime:
+  name: nodejs
+template:
+  description: Unit testing boilerplate using Jest for Typescript
+  config:
+    aws:region:
+      description: AWS Region in which resources will be created
+      default: eu-north-1
